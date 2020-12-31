@@ -1,4 +1,4 @@
-
+[demo](https://github.com/keluokeda/navigation_bug)
 ### bug1 
 #### fragment lifecycle method error when use navigation with BottomNavigationView
 Here is what I want:
