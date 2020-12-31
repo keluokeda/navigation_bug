@@ -39,6 +39,7 @@ class HomeFragment : BaseFragment(R.layout.fragment_home) {
        header.text =  homeViewModel.text
     }
 
+
     override fun onResume() {
         super.onResume()
         setTranslucentStatus(true)
