@@ -49,7 +49,7 @@ class HomeFragment : BaseFragment(R.layout.fragment_home) {
     override fun onPause() {
         super.onPause()
         setTranslucentStatus(false)
-        mainViewModel.add("onResume $this")
+        mainViewModel.add("onPause $this")
 
     }
 }
